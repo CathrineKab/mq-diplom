@@ -997,6 +997,7 @@ form. popup {
 
 .content {
     padding: 41px 35px 47px;
+    width: auto;
 }
 
 .articles {
