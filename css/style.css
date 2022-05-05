@@ -954,7 +954,6 @@ ul.trend-tags {
     padding: 30px 15px;
   }
 
-
   .tags {
     margin-bottom: 8px;
   }
@@ -975,10 +974,6 @@ ul.trend-tags {
   .activity-img:hover {
     max-width: 380px;
   }
-
-  /*.list {
-    max-width: 367px;
-  }*/
 
   .item-description {
     font-size: 20px;
@@ -1189,7 +1184,7 @@ ul.trend-tags {
   }
 
   .welcome {
-    padding: 0 39px;
+   /* padding: 0 39px;*/
 
     margin: 0 auto;
   }
