@@ -8,6 +8,65 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<form class="popup">
+    <div class="popup-container">
+
+      <button class="popup-close" type="button">
+        <span class="visually-hidden">Закрыть окно</span>
+      </button>
+
+      <div class="feedback">
+        
+        <div class="feedback-wrapper">
+          <h2 class="feedback-title">Ваш фидбек</h2>
+        </div>
+        
+        <div class="feedback-form">
+          <div class="form-row form-list">
+            <label class="form-group">
+              <span class="form-hint">Как часто вы заходите на сайт?</span>
+              <select class="select">
+                <option selected>Почти каждый день</option>
+                <option>Раз в несколько дней</option>
+                <option>Раз в несколько недель</option>
+                <option>Несколько раз в год</option>
+              </select>
+            </label>
+          </div>
+          
+          <div class="form-row form-radio">
+            <span>Вы подписаны на e-mail рассылку?</span>
+            <div class="radio-form" required>
+              <label class="radio-group">
+                <input type="radio" class="radio" name="radio-group">
+                <span class="radio-group-text">Да</span>
+              </label>
+              <label class="radio-group">
+                <input type="radio" class="radio" name="radio-group">
+                <span class="radio-group-text">Нет</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group form-field">
+            <label class="field-group">
+              <span class="field-label">Расскажите, какой контент вы хотели бы видеть
+                на нашем сайте?</span>
+              <textarea class="field textarea" placeholder="Может, больше рецептов?" required></textarea>
+            </label>
+          </div>
+
+          <div class="form-row">
+            <button class="feedback-button">Отправить</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </form>
+
+
   <header class="header">
     <div class="site-header"> 
       <div class="container">
@@ -65,7 +124,6 @@
   </header>
   
   <div class="page">
-
     <section class="trends">
       <h2 class="trends-title">Сейчас в тренде</h2>
       <div class="trends-box">
@@ -106,8 +164,7 @@
                 <a class="trend-tag-link" href="#0">Travel</a>
               </li> 
             </ul>
-            <h3 class="trend-item-description"><a class="trend-link" href="#0">СОБИРАЕМСЯ В ПЕРВЫЙ
-              ПОХОД В ГОРЫ</a></h3>
+            <h3 class="trend-item-description"><a class="trend-link" href="#0">Собираемся в первый поход в горы</a></h3>
           </div>
         </article>
 
@@ -606,62 +663,6 @@
     </div>
     
   </footer>
-  <form class="popup">
-    <div class="popup-container">
-
-      <button class="popup-close" type="button">
-        <span class="visually-hidden">Закрыть окно</span>
-      </button>
-
-      <div class="feedback">
-        
-        <div class="feedback-wrapper">
-          <h2 class="feedback-title">Ваш фидбек</h2>
-        </div>
-        
-        <div class="feedback-form">
-          <div class="form-row form-list">
-            <label class="form-group">
-              <span class="form-hint">Как часто вы заходите на сайт?</span>
-              <select class="select">
-                <option selected>Почти каждый день</option>
-                <option>Раз в несколько дней</option>
-                <option>Раз в несколько недель</option>
-                <option>Несколько раз в год</option>
-              </select>
-            </label>
-          </div>
-          
-          <div class="form-row form-radio">
-            <span>Вы подписаны на e-mail рассылку?</span>
-            <div class="radio-form" required>
-              <label class="radio-group">
-                <input type="radio" class="radio" name="radio-group">
-                <span class="radio-group-text">Да</span>
-              </label>
-              <label class="radio-group">
-                <input type="radio" class="radio" name="radio-group">
-                <span class="radio-group-text">Нет</span>
-              </label>
-            </div>
-          </div>
-
-          <div class="form-group form-field">
-            <label class="field-group">
-              <span class="field-label">Расскажите, какой контент вы хотели бы видеть
-                на нашем сайте?</span>
-              <textarea class="field textarea" placeholder="Может, больше рецептов?" required></textarea>
-            </label>
-          </div>
-
-          <div class="form-row">
-            <button class="feedback-button">Отправить</button>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  </form>
+  
 </body>
 </html>
